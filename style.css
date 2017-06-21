@@ -62,15 +62,19 @@ p, ul {
 }
 
 li {
-  display: inline;
+    display: inline;
+}
+
+li:first-child:before {
+    content: "";
 }
 
 li:after {
-  content: ' | ';
+    content: " | ";
 }
 
 li:last-child:after {
-  content: '';
+    content: "";
 }
 
 a {
